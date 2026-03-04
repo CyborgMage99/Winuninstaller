@@ -29,6 +29,7 @@ WinUninstaller├── WinUninstaller.ps1
 2. **Label files** (`labels\*.psd1`)
    - One label per application
    - Defines what to stop, how to identify the app, and what leftovers to remove
+   - Use AI such as Copilot or OpenAI to generate a label. I attached google as an example.
 
 You uninstall apps by **calling the runner with a label name**.
 
@@ -183,5 +184,3 @@ This framework is intentionally:
 If it says **"Done."**, the run completed.
 
 ---
-
-✅ **You now have a working, repeatable Windows uninstall framework.**
